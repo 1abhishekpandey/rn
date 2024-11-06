@@ -1,6 +1,7 @@
 name: Check iOS Build
 
 on:
+  workflow_dispatch:
   pull_request:
     branches: ['develop', 'master']
     types: ['opened', 'reopened', 'synchronize']
